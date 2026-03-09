@@ -1,0 +1,38 @@
+use std::io::{Error, ErrorKind};
+
+pub fn transform_funct(opecode: &str) -> Result<u32, Error> {
+    match opecode {
+        "fadd" => Ok(0x00),
+        "fsub" => Ok(0x01),
+        "fmul" => Ok(0x02),
+        "fdiv" => Ok(0x03),
+        "fsqrt" => Ok(0x04),
+        "fabs" => Ok(0x05),
+        "fmove" => Ok(0x06),
+        "fneg" => Ok(0x07),
+        "floor" => Ok(0x0F),
+        "add" => Ok(0x20),
+        "itof" => Ok(0x20),
+        "sub" => Ok(0x22),
+        "and" => Ok(0x24),
+        "ftoi" => Ok(0x24),
+        "or" => Ok(0x25),
+        "xor" => Ok(0x26),
+        "nor" => Ok(0x27),
+        "slt" => Ok(0x2A),
+        "sll" => Ok(0x00),
+        "srl" => Ok(0x02),
+        "sra" => Ok(0x03),
+        "jr" => Ok(0x08),
+        "jalr" => Ok(0x09),
+        // "mfhi" => Ok(0x10),
+        // "mflo" => Ok(0x12),
+        // "mult" => Ok(0x18),
+        // "div" => Ok(0x1A),
+        "syscall" => Ok(0x0C),
+        "feq" => Ok(0x32),
+        "flt" => Ok(0x3C),
+        "fle" => Ok(0x3E),
+        _ => Err(Error::new(ErrorKind::InvalidInput, "Invalid funct")),
+    }
+}

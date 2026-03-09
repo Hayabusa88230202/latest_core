@@ -1,0 +1,853 @@
+cargo:rerun-if-changed=sv
+cargo:rerun-if-changed=cpp/wrapper.cpp
+make: Nothing to be done for `default'.
+- V e r i l a t i o n   R e p o r t: Verilator 5.042 2025-11-02 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.028 s (elab=0.000, cvt=0.000, bld=0.027); cpu 0.001 s on 1 threads
+cargo:rustc-link-search=native=/Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out
+cargo:rustc-link-lib=static=Vfadd__ALL
+make: Nothing to be done for `default'.
+- V e r i l a t i o n   R e p o r t: Verilator 5.042 2025-11-02 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.021 s (elab=0.000, cvt=0.000, bld=0.020); cpu 0.001 s on 1 threads
+cargo:rustc-link-search=native=/Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out
+cargo:rustc-link-lib=static=Vfmul__ALL
+make: Nothing to be done for `default'.
+- V e r i l a t i o n   R e p o r t: Verilator 5.042 2025-11-02 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.022 s (elab=0.000, cvt=0.000, bld=0.021); cpu 0.001 s on 1 threads
+cargo:rustc-link-search=native=/Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out
+cargo:rustc-link-lib=static=Vfdiv__ALL
+make: Nothing to be done for `default'.
+- V e r i l a t i o n   R e p o r t: Verilator 5.042 2025-11-02 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.025 s (elab=0.000, cvt=0.000, bld=0.024); cpu 0.001 s on 1 threads
+cargo:rustc-link-search=native=/Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out
+cargo:rustc-link-lib=static=Vfsqrt_3__ALL
+make: Nothing to be done for `default'.
+- V e r i l a t i o n   R e p o r t: Verilator 5.042 2025-11-02 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.024 s (elab=0.000, cvt=0.000, bld=0.023); cpu 0.001 s on 1 threads
+cargo:rustc-link-search=native=/Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out
+cargo:rustc-link-lib=static=Vitof__ALL
+make: Nothing to be done for `default'.
+- V e r i l a t i o n   R e p o r t: Verilator 5.042 2025-11-02 rev UNKNOWN.REV
+- Verilator: Built from 0.000 MB sources in 0 modules, into 0.000 MB in 0 C++ files needing 0.000 MB
+- Verilator: Walltime 0.022 s (elab=0.000, cvt=0.000, bld=0.020); cpu 0.001 s on 1 threads
+cargo:rustc-link-search=native=/Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out
+cargo:rustc-link-lib=static=Vftoi__ALL
+OUT_DIR = Some(/Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out)
+OPT_LEVEL = Some(3)
+TARGET = Some(aarch64-apple-darwin)
+CARGO_ENCODED_RUSTFLAGS = Some()
+HOST = Some(aarch64-apple-darwin)
+cargo:rerun-if-env-changed=CXX_aarch64-apple-darwin
+CXX_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CXX_aarch64_apple_darwin
+CXX_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+RUSTC_WRAPPER = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some(false)
+cargo:rerun-if-env-changed=MACOSX_DEPLOYMENT_TARGET
+MACOSX_DEPLOYMENT_TARGET = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS_aarch64_apple_darwin
+CXXFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=CXXFLAGS_aarch64-apple-darwin
+CXXFLAGS_aarch64-apple-darwin = None
+cargo:warning=In file included from cpp/wrapper.cpp:2:
+cargo:warning=In file included from /Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out/Vfadd.h:11:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:165:53: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=  165 | inline std::string VL_TO_STRING(const VlProcessRef& p) { return std::string("process"); }
+cargo:warning=      |                                                     ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:1293:25: warning: unused parameter 'dimension' [-Wunused-parameter]
+cargo:warning= 1293 |     int find_length(int dimension, std::false_type) const {
+cargo:warning=      |                         ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:1864:28: warning: unused parameter 'copied' [-Wunused-parameter]
+cargo:warning= 1864 |     VlClass(const VlClass& copied) {}
+cargo:warning=      |                            ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:2022:43: warning: unused parameter 'in' [-Wunused-parameter]
+cargo:warning= 2022 | static inline bool VL_CAST_DYNAMIC(VlNull in, VlClassRef<T_Lhs>& outr) {
+cargo:warning=      |                                           ^
+cargo:warning=In file included from cpp/wrapper.cpp:2:
+cargo:warning=In file included from /Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out/Vfadd.h:11:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1028:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1017:36: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1017 | static inline IData VL_DIV_III(int lbits, IData lhs, IData rhs) {
+cargo:warning=      |                                    ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1020:36: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1020 | static inline QData VL_DIV_QQQ(int lbits, QData lhs, QData rhs) {
+cargo:warning=      |                                    ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1024:39: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1024 | static inline IData VL_MODDIV_III(int lbits, IData lhs, IData rhs) {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1027:39: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1027 | static inline QData VL_MODDIV_QQQ(int lbits, QData lhs, QData rhs) {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1613:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1613 | static inline IData VL_PACK_I_RI(int obits, int lbits, const VlQueue<CData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1615:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1615 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1620:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1620 | static inline IData VL_PACK_I_RI(int obits, int lbits, const VlQueue<SData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1622:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1622 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1627:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1627 | static inline IData VL_PACK_I_RI(int obits, int lbits, const VlQueue<IData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1629:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1629 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1634:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1634 | static inline IData VL_PACK_I_UI(int obits, int lbits, const VlUnpacked<CData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1642:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1642 | static inline IData VL_PACK_I_UI(int obits, int lbits, const VlUnpacked<SData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1650:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1650 | static inline IData VL_PACK_I_UI(int obits, int lbits, const VlUnpacked<IData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1656:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1656 | static inline QData VL_PACK_Q_RI(int obits, int lbits, const VlQueue<CData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1658:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1658 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1663:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1663 | static inline QData VL_PACK_Q_RI(int obits, int lbits, const VlQueue<SData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1665:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1665 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1670:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1670 | static inline QData VL_PACK_Q_RI(int obits, int lbits, const VlQueue<IData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1672:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1672 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1678:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1678 | static inline QData VL_PACK_Q_UI(int obits, int lbits, const VlUnpacked<CData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1686:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1686 | static inline QData VL_PACK_Q_UI(int obits, int lbits, const VlUnpacked<SData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1694:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1694 | static inline QData VL_PACK_Q_UI(int obits, int lbits, const VlUnpacked<IData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1701:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1701 | static inline QData VL_PACK_Q_RQ(int obits, int lbits, const VlQueue<QData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1703:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1703 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1708:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1708 | static inline QData VL_PACK_Q_UQ(int obits, int lbits, const VlUnpacked<QData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1717:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1717 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1725:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1725 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1733:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1733 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1768:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1768 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1904:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1904 | static inline IData VL_SHIFTL_III(int obits, int, int, IData lhs, IData rhs) VL_MT_SAFE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1912:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1912 | static inline QData VL_SHIFTL_QQI(int obits, int, int, QData lhs, IData rhs) VL_MT_SAFE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1973:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1973 | static inline IData VL_SHIFTR_III(int obits, int, int, IData lhs, IData rhs) VL_PURE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1981:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1981 | static inline QData VL_SHIFTR_QQI(int obits, int, int, QData lhs, IData rhs) VL_PURE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2333:73: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 2333 | static inline void VL_COPY_Q(VlQueue<T>& q, const VlQueue<T>& from, int lbits, int srcElementBits,
+cargo:warning=      |                                                                         ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2455:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2455 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2468:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2468 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2481:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2481 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2494:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2494 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2508:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2508 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2518:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2518 | static inline void VL_UNPACK_UI_I(int lbits, int rbits, VlUnpacked<CData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2525:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2525 | static inline void VL_UNPACK_UI_I(int lbits, int rbits, VlUnpacked<SData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2532:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2532 | static inline void VL_UNPACK_UI_I(int lbits, int rbits, VlUnpacked<IData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2539:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2539 | static inline void VL_UNPACK_UI_Q(int lbits, int rbits, VlUnpacked<CData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2546:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2546 | static inline void VL_UNPACK_UI_Q(int lbits, int rbits, VlUnpacked<SData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2553:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2553 | static inline void VL_UNPACK_UI_Q(int lbits, int rbits, VlUnpacked<IData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2560:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2560 | static inline void VL_UNPACK_UQ_Q(int lbits, int rbits, VlUnpacked<QData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=In file included from cpp/wrapper.cpp:2:
+cargo:warning=In file included from /Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out/Vfadd.h:11:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1616:37: note: in instantiation of member function 'VlQueue<unsigned char>::at' requested here
+cargo:warning= 1616 |         ret |= static_cast<IData>(q.at(q.size() - 1 - i)) << (i * lbits);
+cargo:warning=      |                                     ^
+cargo:warning=In file included from cpp/wrapper.cpp:2:
+cargo:warning=In file included from /Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out/Vfadd.h:11:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1623:37: note: in instantiation of member function 'VlQueue<unsigned short>::at' requested here
+cargo:warning= 1623 |         ret |= static_cast<IData>(q.at(q.size() - 1 - i)) << (i * lbits);
+cargo:warning=      |                                     ^
+cargo:warning=In file included from cpp/wrapper.cpp:2:
+cargo:warning=In file included from /Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out/Vfadd.h:11:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1629:52: note: in instantiation of member function 'VlQueue<unsigned int>::at' requested here
+cargo:warning= 1629 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                                                    ^
+cargo:warning=In file included from cpp/wrapper.cpp:2:
+cargo:warning=In file included from /Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out/Vfadd.h:11:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1703:52: note: in instantiation of member function 'VlQueue<unsigned long long>::at' requested here
+cargo:warning= 1703 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                                                    ^
+cargo:warning=In file included from cpp/wrapper.cpp:2:
+cargo:warning=In file included from /Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out/Vfadd.h:11:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2406:41: note: in instantiation of member function 'VlQueue<unsigned char>::atWrite' requested here
+cargo:warning= 2406 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=In file included from cpp/wrapper.cpp:2:
+cargo:warning=In file included from /Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out/Vfadd.h:11:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2413:41: note: in instantiation of member function 'VlQueue<unsigned short>::atWrite' requested here
+cargo:warning= 2413 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=In file included from cpp/wrapper.cpp:2:
+cargo:warning=In file included from /Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out/Vfadd.h:11:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2420:41: note: in instantiation of member function 'VlQueue<unsigned int>::atWrite' requested here
+cargo:warning= 2420 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=In file included from cpp/wrapper.cpp:2:
+cargo:warning=In file included from /Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out/Vfadd.h:11:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2448:41: note: in instantiation of member function 'VlQueue<unsigned long long>::atWrite' requested here
+cargo:warning= 2448 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=58 warnings generated.
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.cpp:53:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_imp.h:32:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:165:53: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=  165 | inline std::string VL_TO_STRING(const VlProcessRef& p) { return std::string("process"); }
+cargo:warning=      |                                                     ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:1293:25: warning: unused parameter 'dimension' [-Wunused-parameter]
+cargo:warning= 1293 |     int find_length(int dimension, std::false_type) const {
+cargo:warning=      |                         ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:1864:28: warning: unused parameter 'copied' [-Wunused-parameter]
+cargo:warning= 1864 |     VlClass(const VlClass& copied) {}
+cargo:warning=      |                            ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:2022:43: warning: unused parameter 'in' [-Wunused-parameter]
+cargo:warning= 2022 | static inline bool VL_CAST_DYNAMIC(VlNull in, VlClassRef<T_Lhs>& outr) {
+cargo:warning=      |                                           ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.cpp:53:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_imp.h:32:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1028:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1017:36: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1017 | static inline IData VL_DIV_III(int lbits, IData lhs, IData rhs) {
+cargo:warning=      |                                    ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1020:36: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1020 | static inline QData VL_DIV_QQQ(int lbits, QData lhs, QData rhs) {
+cargo:warning=      |                                    ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1024:39: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1024 | static inline IData VL_MODDIV_III(int lbits, IData lhs, IData rhs) {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1027:39: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1027 | static inline QData VL_MODDIV_QQQ(int lbits, QData lhs, QData rhs) {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1613:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1613 | static inline IData VL_PACK_I_RI(int obits, int lbits, const VlQueue<CData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1615:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1615 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1620:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1620 | static inline IData VL_PACK_I_RI(int obits, int lbits, const VlQueue<SData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1622:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1622 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1627:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1627 | static inline IData VL_PACK_I_RI(int obits, int lbits, const VlQueue<IData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1629:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1629 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1634:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1634 | static inline IData VL_PACK_I_UI(int obits, int lbits, const VlUnpacked<CData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1642:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1642 | static inline IData VL_PACK_I_UI(int obits, int lbits, const VlUnpacked<SData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1650:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1650 | static inline IData VL_PACK_I_UI(int obits, int lbits, const VlUnpacked<IData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1656:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1656 | static inline QData VL_PACK_Q_RI(int obits, int lbits, const VlQueue<CData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1658:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1658 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1663:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1663 | static inline QData VL_PACK_Q_RI(int obits, int lbits, const VlQueue<SData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1665:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1665 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1670:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1670 | static inline QData VL_PACK_Q_RI(int obits, int lbits, const VlQueue<IData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1672:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1672 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1678:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1678 | static inline QData VL_PACK_Q_UI(int obits, int lbits, const VlUnpacked<CData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1686:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1686 | static inline QData VL_PACK_Q_UI(int obits, int lbits, const VlUnpacked<SData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1694:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1694 | static inline QData VL_PACK_Q_UI(int obits, int lbits, const VlUnpacked<IData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1701:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1701 | static inline QData VL_PACK_Q_RQ(int obits, int lbits, const VlQueue<QData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1703:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1703 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1708:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1708 | static inline QData VL_PACK_Q_UQ(int obits, int lbits, const VlUnpacked<QData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1717:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1717 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1725:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1725 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1733:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1733 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1768:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1768 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1904:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1904 | static inline IData VL_SHIFTL_III(int obits, int, int, IData lhs, IData rhs) VL_MT_SAFE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1912:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1912 | static inline QData VL_SHIFTL_QQI(int obits, int, int, QData lhs, IData rhs) VL_MT_SAFE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1973:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1973 | static inline IData VL_SHIFTR_III(int obits, int, int, IData lhs, IData rhs) VL_PURE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1981:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1981 | static inline QData VL_SHIFTR_QQI(int obits, int, int, QData lhs, IData rhs) VL_PURE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2333:73: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 2333 | static inline void VL_COPY_Q(VlQueue<T>& q, const VlQueue<T>& from, int lbits, int srcElementBits,
+cargo:warning=      |                                                                         ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2455:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2455 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2468:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2468 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2481:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2481 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2494:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2494 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2508:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2508 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2518:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2518 | static inline void VL_UNPACK_UI_I(int lbits, int rbits, VlUnpacked<CData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2525:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2525 | static inline void VL_UNPACK_UI_I(int lbits, int rbits, VlUnpacked<SData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2532:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2532 | static inline void VL_UNPACK_UI_I(int lbits, int rbits, VlUnpacked<IData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2539:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2539 | static inline void VL_UNPACK_UI_Q(int lbits, int rbits, VlUnpacked<CData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2546:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2546 | static inline void VL_UNPACK_UI_Q(int lbits, int rbits, VlUnpacked<SData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2553:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2553 | static inline void VL_UNPACK_UI_Q(int lbits, int rbits, VlUnpacked<IData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2560:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2560 | static inline void VL_UNPACK_UQ_Q(int lbits, int rbits, VlUnpacked<QData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.cpp:53:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_imp.h:32:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1616:37: note: in instantiation of member function 'VlQueue<unsigned char>::at' requested here
+cargo:warning= 1616 |         ret |= static_cast<IData>(q.at(q.size() - 1 - i)) << (i * lbits);
+cargo:warning=      |                                     ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.cpp:53:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_imp.h:32:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1623:37: note: in instantiation of member function 'VlQueue<unsigned short>::at' requested here
+cargo:warning= 1623 |         ret |= static_cast<IData>(q.at(q.size() - 1 - i)) << (i * lbits);
+cargo:warning=      |                                     ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.cpp:53:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_imp.h:32:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1629:52: note: in instantiation of member function 'VlQueue<unsigned int>::at' requested here
+cargo:warning= 1629 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                                                    ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.cpp:53:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_imp.h:32:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1703:52: note: in instantiation of member function 'VlQueue<unsigned long long>::at' requested here
+cargo:warning= 1703 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                                                    ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.cpp:53:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_imp.h:32:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2406:41: note: in instantiation of member function 'VlQueue<unsigned char>::atWrite' requested here
+cargo:warning= 2406 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.cpp:53:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_imp.h:32:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2413:41: note: in instantiation of member function 'VlQueue<unsigned short>::atWrite' requested here
+cargo:warning= 2413 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.cpp:53:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_imp.h:32:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2420:41: note: in instantiation of member function 'VlQueue<unsigned int>::atWrite' requested here
+cargo:warning= 2420 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.cpp:53:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_imp.h:32:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2448:41: note: in instantiation of member function 'VlQueue<unsigned long long>::atWrite' requested here
+cargo:warning= 2448 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=58 warnings generated.
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.cpp:26:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.h:28:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:165:53: warning: unused parameter 'p' [-Wunused-parameter]
+cargo:warning=  165 | inline std::string VL_TO_STRING(const VlProcessRef& p) { return std::string("process"); }
+cargo:warning=      |                                                     ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:1293:25: warning: unused parameter 'dimension' [-Wunused-parameter]
+cargo:warning= 1293 |     int find_length(int dimension, std::false_type) const {
+cargo:warning=      |                         ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:1864:28: warning: unused parameter 'copied' [-Wunused-parameter]
+cargo:warning= 1864 |     VlClass(const VlClass& copied) {}
+cargo:warning=      |                            ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:2022:43: warning: unused parameter 'in' [-Wunused-parameter]
+cargo:warning= 2022 | static inline bool VL_CAST_DYNAMIC(VlNull in, VlClassRef<T_Lhs>& outr) {
+cargo:warning=      |                                           ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.cpp:26:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.h:28:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1028:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1017:36: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1017 | static inline IData VL_DIV_III(int lbits, IData lhs, IData rhs) {
+cargo:warning=      |                                    ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1020:36: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1020 | static inline QData VL_DIV_QQQ(int lbits, QData lhs, QData rhs) {
+cargo:warning=      |                                    ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1024:39: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1024 | static inline IData VL_MODDIV_III(int lbits, IData lhs, IData rhs) {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1027:39: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 1027 | static inline QData VL_MODDIV_QQQ(int lbits, QData lhs, QData rhs) {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1613:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1613 | static inline IData VL_PACK_I_RI(int obits, int lbits, const VlQueue<CData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1615:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1615 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1620:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1620 | static inline IData VL_PACK_I_RI(int obits, int lbits, const VlQueue<SData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1622:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1622 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1627:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1627 | static inline IData VL_PACK_I_RI(int obits, int lbits, const VlQueue<IData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1629:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1629 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1634:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1634 | static inline IData VL_PACK_I_UI(int obits, int lbits, const VlUnpacked<CData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1642:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1642 | static inline IData VL_PACK_I_UI(int obits, int lbits, const VlUnpacked<SData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1650:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1650 | static inline IData VL_PACK_I_UI(int obits, int lbits, const VlUnpacked<IData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1656:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1656 | static inline QData VL_PACK_Q_RI(int obits, int lbits, const VlQueue<CData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1658:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1658 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1663:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1663 | static inline QData VL_PACK_Q_RI(int obits, int lbits, const VlQueue<SData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1665:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1665 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1670:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1670 | static inline QData VL_PACK_Q_RI(int obits, int lbits, const VlQueue<IData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1672:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1672 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1678:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1678 | static inline QData VL_PACK_Q_UI(int obits, int lbits, const VlUnpacked<CData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1686:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1686 | static inline QData VL_PACK_Q_UI(int obits, int lbits, const VlUnpacked<SData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1694:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1694 | static inline QData VL_PACK_Q_UI(int obits, int lbits, const VlUnpacked<IData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1701:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1701 | static inline QData VL_PACK_Q_RQ(int obits, int lbits, const VlQueue<QData>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1703:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1703 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1708:38: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1708 | static inline QData VL_PACK_Q_UQ(int obits, int lbits, const VlUnpacked<QData, N_Depth>& q) {
+cargo:warning=      |                                      ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1717:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1717 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1725:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1725 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1733:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1733 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1768:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'int' [-Wsign-compare]
+cargo:warning= 1768 |     for (size_t i = 0; i < q.size(); ++i)
+cargo:warning=      |                        ~ ^ ~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1904:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1904 | static inline IData VL_SHIFTL_III(int obits, int, int, IData lhs, IData rhs) VL_MT_SAFE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1912:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1912 | static inline QData VL_SHIFTL_QQI(int obits, int, int, QData lhs, IData rhs) VL_MT_SAFE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1973:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1973 | static inline IData VL_SHIFTR_III(int obits, int, int, IData lhs, IData rhs) VL_PURE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1981:39: warning: unused parameter 'obits' [-Wunused-parameter]
+cargo:warning= 1981 | static inline QData VL_SHIFTR_QQI(int obits, int, int, QData lhs, IData rhs) VL_PURE {
+cargo:warning=      |                                       ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2333:73: warning: unused parameter 'lbits' [-Wunused-parameter]
+cargo:warning= 2333 | static inline void VL_COPY_Q(VlQueue<T>& q, const VlQueue<T>& from, int lbits, int srcElementBits,
+cargo:warning=      |                                                                         ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2455:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2455 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2468:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2468 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2481:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2481 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2494:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2494 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2508:26: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+cargo:warning= 2508 |     for (size_t i = 0; i < size; ++i) {
+cargo:warning=      |                        ~ ^ ~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2518:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2518 | static inline void VL_UNPACK_UI_I(int lbits, int rbits, VlUnpacked<CData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2525:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2525 | static inline void VL_UNPACK_UI_I(int lbits, int rbits, VlUnpacked<SData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2532:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2532 | static inline void VL_UNPACK_UI_I(int lbits, int rbits, VlUnpacked<IData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2539:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2539 | static inline void VL_UNPACK_UI_Q(int lbits, int rbits, VlUnpacked<CData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2546:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2546 | static inline void VL_UNPACK_UI_Q(int lbits, int rbits, VlUnpacked<SData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2553:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2553 | static inline void VL_UNPACK_UI_Q(int lbits, int rbits, VlUnpacked<IData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2560:50: warning: unused parameter 'rbits' [-Wunused-parameter]
+cargo:warning= 2560 | static inline void VL_UNPACK_UQ_Q(int lbits, int rbits, VlUnpacked<QData, N_Depth>& q,
+cargo:warning=      |                                                  ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.cpp:26:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.h:28:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1616:37: note: in instantiation of member function 'VlQueue<unsigned char>::at' requested here
+cargo:warning= 1616 |         ret |= static_cast<IData>(q.at(q.size() - 1 - i)) << (i * lbits);
+cargo:warning=      |                                     ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.cpp:26:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.h:28:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1623:37: note: in instantiation of member function 'VlQueue<unsigned short>::at' requested here
+cargo:warning= 1623 |         ret |= static_cast<IData>(q.at(q.size() - 1 - i)) << (i * lbits);
+cargo:warning=      |                                     ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.cpp:26:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.h:28:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1629:52: note: in instantiation of member function 'VlQueue<unsigned int>::at' requested here
+cargo:warning= 1629 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                                                    ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.cpp:26:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.h:28:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:585:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  585 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:1703:52: note: in instantiation of member function 'VlQueue<unsigned long long>::at' requested here
+cargo:warning= 1703 |     for (size_t i = 0; i < q.size(); ++i) ret |= q.at(q.size() - 1 - i) << (i * lbits);
+cargo:warning=      |                                                    ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.cpp:26:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.h:28:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2406:41: note: in instantiation of member function 'VlQueue<unsigned char>::atWrite' requested here
+cargo:warning= 2406 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.cpp:26:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.h:28:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2413:41: note: in instantiation of member function 'VlQueue<unsigned short>::atWrite' requested here
+cargo:warning= 2413 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.cpp:26:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.h:28:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2420:41: note: in instantiation of member function 'VlQueue<unsigned int>::atWrite' requested here
+cargo:warning= 2420 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.cpp:26:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_threads.h:28:
+cargo:warning=In file included from /opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated.h:1023:
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_types.h:565:44: warning: comparison of integers of different signs: 'int32_t' (aka 'int') and 'size_type' (aka 'unsigned long') [-Wsign-compare]
+cargo:warning=  565 |         if (VL_UNLIKELY(index < 0 || index >= m_deque.size())) {
+cargo:warning=      |                                      ~~~~~ ^  ~~~~~~~~~~~~~~
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilatedos.h:67:45: note: expanded from macro 'VL_UNLIKELY'
+cargo:warning=   67 | # define VL_UNLIKELY(x) __builtin_expect(!!(x), 0)  // Prefer over C++20 [[unlikely]]
+cargo:warning=      |                                             ^
+cargo:warning=/opt/homebrew/Cellar/verilator/5.042/share/verilator/include/verilated_funcs.h:2448:41: note: in instantiation of member function 'VlQueue<unsigned long long>::atWrite' requested here
+cargo:warning= 2448 |     for (size_t i = 0; i < size; ++i) q.atWrite(size - 1 - i) = (from >> (i * lbits)) & mask;
+cargo:warning=      |                                         ^
+cargo:warning=58 warnings generated.
+cargo:rerun-if-env-changed=AR_aarch64-apple-darwin
+AR_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=AR_aarch64_apple_darwin
+AR_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64_apple_darwin
+ARFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64-apple-darwin
+ARFLAGS_aarch64-apple-darwin = None
+cargo:rustc-link-lib=static=fpu_wrapper
+cargo:rustc-link-search=native=/Users/mitsumasa-naito/cpu-jikken/simulator/team7_simulator/target/release/build/mips_simulator-18c14cbc789747ab/out
+cargo:rerun-if-env-changed=CXXSTDLIB_aarch64-apple-darwin
+CXXSTDLIB_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CXXSTDLIB_aarch64_apple_darwin
+CXXSTDLIB_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CXXSTDLIB
+HOST_CXXSTDLIB = None
+cargo:rerun-if-env-changed=CXXSTDLIB
+CXXSTDLIB = None
+cargo:rustc-link-lib=c++
+cargo:rustc-link-lib=c++
